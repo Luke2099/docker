@@ -1,0 +1,18 @@
+#change the directory
+cd arm64v8/openjdk:7
+#copy file
+cp ./usr/myapp
+#change directory
+cd /usr/src/myapp
+#install commands
+./configure
+#make directories as needed
+mkdir
+#login for admin permission
+su
+#create executable file
+make install
+#list directory contents
+ls
+#change directory until you find the executable file
+cd
